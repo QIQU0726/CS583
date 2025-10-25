@@ -1,1 +1,4 @@
-
+Dataset Handling Note
+Due to restrictions on accessing certain external network resources in China's network environment, direct online loading of the dataset may encounter connection instability or failures.
+To address this, the complete dataset was first downloaded to local storage through compliant means. During program execution, the model reads the pre-downloaded dataset files directly from the local path for training and validation.
+This approach ensures stable and efficient data loading while maintaining data integrity and accurate processing logic.
